@@ -1,9 +1,5 @@
 @charset "UTF-8";
 
-:root {
-
-    --cor1:
-}
 
 * {
 
@@ -12,10 +8,12 @@
 
 }
 body {
-    background-image: linear-gradient(to bottom, rgb(73, 61, 238), rgb(122, 146, 253) );
+    background-image: linear-gradient(to bottom, rgb(96, 85, 245), rgb(122, 146, 253) );
+
+    max-height: 800px;
   
 }
-.setings > i {
+.settings > i {
     color: white;
     display: flex;
     margin-left: -5px;
@@ -26,7 +24,6 @@ body {
    
     background-image: linear-gradient(to bottom, blue, rgb(7, 136, 187));
     display: flex;
-    margin-top: 30px;
     flex-direction: column;
     align-items: center;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
@@ -50,20 +47,23 @@ body {
     padding-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.479);
+
 }
 
 .container > .itens {
     
-  background-color: rgb(31, 61, 192);
-
+  background-color: rgb(47, 74, 194);
+  border: 1px solid rgb(81, 92, 253);
   width: 400px;
   height: 100px;
   margin-top: 20px;
   border-radius: 5px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.575);
+
 }
 
 .container > .itens > ul{
+
     display: flex;
     gap: 80px;
     list-style-type: none;
@@ -72,19 +72,20 @@ body {
 }
 
 .container > .itens > ul > li {
-    margin-top: -8px;
+    margin-top: -7px;
 }
 
 .container > .itens > ul > li:hover {
-
     color: black;
 }
 
 .container > h4 {
+
     align-self: baseline;
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 7px;
     padding-top: 30px;
+
 }
 
 .container > ul {
@@ -94,19 +95,20 @@ body {
 
 .container > ul > a {
     color: white;
+    text-decoration: none;
     
 }
 
+.container > ul > a:hover {
+    text-decoration: underline;
+}
+
 footer {
-    
-    margin-top: 90px;
-    margin-left: -20px;
-    margin-right: -20px;
-    margin-bottom: -60px;
-    background-image: linear-gradient(to top, rgb(79, 79, 206), rgb(135, 135, 240));
+
+    margin: 90px -20px 0px -20px;
+    background-image: linear-gradient(to top, rgb(46, 46, 121), rgb(116, 116, 207));
     color: white;
     text-align: center;
     padding: 10px;
-    justify-content: end;
-    align-items: end;
+
 }
