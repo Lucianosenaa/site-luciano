@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+:root {
+
+    --cor1:
+}
+
+* {
+
+    margin: 10px;
+    padding: 0%;
+
+}
+body {
+    background-image: linear-gradient(to bottom, rgb(73, 61, 238), rgb(122, 146, 253) );
+  
+}
+.setings > i {
+    color: white;
+    display: flex;
+    margin-left: -5px;
+    justify-content: start;
+}
+
+.container {
+   
+    background-image: linear-gradient(to bottom, blue, rgb(7, 136, 187));
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 50px 5px 50px 5px;
+    height: 700px;
+    max-width: 600px;
+    margin: auto;
+    color: white;
+}
+
+.container > img {
+
+    width: 150px;
+    border: 5px solid white;
+    border-radius: 50%;
+    
+}
+
+.container > h3 {
+    
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.479);
+}
+
+.container > .itens {
+    
+  background-color: rgb(31, 61, 192);
+
+  width: 400px;
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.575);
+}
+
+.container > .itens > ul{
+    display: flex;
+    gap: 80px;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container > .itens > ul > li {
+    margin-top: -8px;
+}
+
+.container > .itens > ul > li:hover {
+
+    color: black;
+}
+
+.container > h4 {
+    align-self: baseline;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 7px;
+    padding-top: 30px;
+}
+
+.container > ul {
+    align-self: baseline;
+    list-style-type: none;
+}
+
+.container > ul > a {
+    color: white;
+    
+}
+
+footer {
+    
+    margin-top: 90px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: -60px;
+    background-image: linear-gradient(to top, rgb(79, 79, 206), rgb(135, 135, 240));
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
