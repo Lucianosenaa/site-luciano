@@ -107,4 +107,6 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+    justify-content: end;
+    align-items: end;
 }
